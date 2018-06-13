@@ -1,0 +1,32 @@
+#non-member-class-upsell {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+#non-member-class-upsell > div {
+	flex: 1;
+}
+#non-member-class-title h1 {
+	font-size: 36px;
+}
+#non-member-class-title h3 {
+	font-size: 18px;
+}
+#non-member-class-description {
+	font-size: 14px;
+}
+#non-member-class-CTA {
+	display: flex;
+	flex: 5;
+	justify-content: center;
+	font-size: 16px;
+}
+#non-member-class-CTA > div:not(:first-child) {
+	margin-top: 24px;
+
+}
+#non-member-class-CTA-header {
+	font-size: 24px;
+}
