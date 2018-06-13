@@ -1,13 +1,20 @@
+body {
+	background-color: #ddd;
+}
 #non-member-class-upsell {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
+	width: 33%;
+	margin: 0 auto;
+	background-color: #fff;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
 #non-member-class-upsell > div {
 	flex: 1;
+	width: 95%;
 }
 #non-member-class-title h1 {
 	font-size: 36px;
@@ -23,6 +30,8 @@
 	flex-direction: column;
 	flex: 5;
 	justify-content: center;
+	padding: 36px 24px;
+	background-color: #aaa;
 	font-size: 16px;
 }
 #non-member-class-CTA > div:not(:first-child) {
