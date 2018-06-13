@@ -1,11 +1,17 @@
 body {
-	background-color: #ddd;
+	background-color: #efefef;
 }
 #non-member-class-upsell h1,
 #non-member-class-upsell h2,
 #non-member-class-upsell h3,
 #non-member-class-upsell p {
 	margin: 0;
+	color: #808181;
+}
+#non-member-class-upsell h1,
+#non-member-class-upsell h2,
+#non-member-class-upsell h3 {
+	color: #0a2234;
 }
 #non-member-class-upsell {
 	display: flex;
@@ -36,7 +42,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	padding: 36px 30px;
-	background-color: #aaa;
+	background-color: #eceeef;
 	font-size: 16px;
 }
 #non-member-class-CTA > div:not(:first-child) {
@@ -44,4 +50,7 @@ body {
 }
 #non-member-class-CTA-header {
 	font-size: 18px;
+}
+#non-member-class-CTA-link a {
+	color: #5a98cb;
 }
