@@ -1,6 +1,12 @@
 body {
 	background-color: #ddd;
 }
+#non-member-class-upsell h1,
+#non-member-class-upsell h2,
+#non-member-class-upsell h3,
+#non-member-class-upsell p {
+	margin: 0;
+}
 #non-member-class-upsell {
 	display: flex;
 	flex-direction: column;
@@ -8,13 +14,10 @@ body {
 	justify-content: space-around;
 	width: 33%;
 	margin: 0 auto;
-	padding: 12px;
+	padding: 20px;
 	background-color: #fff;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-}
-#non-member-class-upsell > div {
-	flex: 1;
 }
 #non-member-class-title h1 {
 	font-size: 36px;
@@ -28,9 +31,9 @@ body {
 #non-member-class-CTA {
 	display: flex;
 	flex-direction: column;
-	flex: 5;
 	justify-content: center;
-	padding: 36px 24px;
+	margin-top: 20px;
+	padding: 36px 30px;
 	background-color: #aaa;
 	font-size: 16px;
 }
