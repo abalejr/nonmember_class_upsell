@@ -1,5 +1,6 @@
 body {
 	background-color: #efefef;
+	margin: 0;
 }
 #non-member-class-upsell {
 	display: flex;
@@ -59,4 +60,27 @@ body {
 }
 #non-member-class-CTA-link a {
 	color: #5a98cb;
+}
+@media only screen and (max-width : 880px) {
+	#non-member-class-upsell {
+		font-size: 22px;
+	}
+}
+@media only screen and (max-width : 656px) {
+	#non-member-class-upsell {
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width : 500px) {
+	#non-member-class-upsell {
+		font-size: 18px;
+		padding: 1em 0;
+		max-width: 100%;
+	}
+	#non-member-class-description {
+		padding: 0 1em;
+	}
+	#non-member-class-CTA {
+		padding: 2em 1.25em;
+	}
 }
