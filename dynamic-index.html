@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div id="content">
+	<div id="non-member-class-upsell">
+		<div id="non-member-class-title">
+			<h1>[field title]</h1>
+			[related related_store_product]
+			<h3>[field product_subtitle]</h3>
+			[/related]
+		</div>
+		<div id="non-member-class-description">
+			<p>[field class_description]</p>
+		</div>
+	    [pass field=id]
+	    [loop type=classes id='{FIELD}']
+	  	[wpf not=[field class_all_tags] method="any" logged_out]
+		[related related_store_product]
+		    
+		<div id="non-member-class-CTA-wrapper">
+			<div id="non-member-class-CTA">
+				<div id="non-member-class-CTA-header">
+				    
+					<h2>Take your trading to the next level with our online trading courses, like [field title]</h2>
+				</div>
+				<div id="non-member-class-CTA-info">
+					<p>With over 200 years combined experience on our trading team, you'll learn more than you ever expected, from successful trading strategies to trading psychology. At Simpler Trading, our trading education specializes in options, futures, and crypto trading.</p>
+				</div>
+				<div id="non-member-class-CTA-link">
+				    [link field=url]Learn more about [field title] here.[/link]
+				</div>
+			</div>
+		</div>
+		[/related]
+		[/wpf]
+		[/loop]
+		[/pass]
+	</div>
+</div>
+</body>
+</html>
