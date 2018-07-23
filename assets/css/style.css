@@ -1,79 +1,95 @@
 body {
-	background-color: #efefef;
+	background-color: #f7f7f7;
 	margin: 0;
+}
+#content {
+	width: 1100px;
+	margin: 0 auto;
 }
 #non-member-class-upsell {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	font-size: 28px;
-	width: 30em;
-	max-width: 85%;
+	font-size: 20px;
+	width: 100%;
 	font-family: 'Open Sans', sans-serif;
-	margin: 2em auto;
-	padding: 1.56em;
+	padding: 25px 40px;
 	background-color: #fff;
 	text-align: center;
-	
 }
 #non-member-class-upsell h1,
 #non-member-class-upsell h2,
 #non-member-class-upsell h3,
 #non-member-class-upsell p {
 	margin: 0;
-	color: #808181;
+	color: #666;
 }
 #non-member-class-upsell h1,
 #non-member-class-upsell h2,
-#non-member-class-upsell h3 {
-	color: #0a2234;
+#non-member-class-upsell h3,
+#non-member-class-upsell a {
+	color: #0a2335;
+}
+#non-member-class-title {
+    margin: 0 15%;
 }
 #non-member-class-title h1 {
-	font-size: 2em;
+	font-size: 2.5em;
+	font-weight: 900;
+	text-transform: uppercase;
 }
 #non-member-class-title h3 {
-	font-size: 1.11em;
-	font-weight: normal;
+	font-size: 1.3em;
+	font-weight: 200;
 }
 #non-member-class-description {
-	margin: 1.25em 0 1.87em 0;
-	font-size: 0.89em;
-
+	margin: 2em 0;
+}
+#non-member-class-CTA-wrapper {
+    background-color: #f7f7f7;
+    background-image: url(https://s3.amazonaws.com/simpler-cdn/dev/wp-content/uploads/2018/06/17103637/class-player.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 #non-member-class-CTA {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 3.25em 3.5em;
-	background-color: #eceeefcc;
-	background-color: rgba(236,238,239,.95);
+	padding: 6.5em 5em;
+	background-color: #f7f7f7;
+	background-color: rgba(247,247,247,0.92);
 }
 #non-member-class-CTA > div:not(:first-child) {
-	margin-top: 1.5em;
+	margin-top: 3em;
 }
 #non-member-class-CTA-header h2 {
-	font-size: 1.25em;
+	font-size: 1.75em;
+	font-weight: bold;
 }
 #non-member-class-CTA-info {
-	line-height: 1.2em;
+    font-size: 1.2em;
+	line-height: 1.75em;
 }
 #non-member-class-CTA-link a {
+    font-size: 1.2em;
 	color: #5a98cb;
+	text-decoration: underline;
 }
-@media only screen and (max-width : 880px) {
-	#non-member-class-upsell {
-		font-size: 22px;
-	}
-}
-@media only screen and (max-width : 656px) {
-	#non-member-class-upsell {
+@media (max-width : 880px) {
+    #non-member-class-upsell {
 		font-size: 18px;
 	}
 }
-@media only screen and (max-width : 500px) {
+@media (max-width : 656px) {
 	#non-member-class-upsell {
-		font-size: 18px;
+		font-size: 16px;
+	}
+}
+@media (max-width : 500px) {
+	#non-member-class-upsell {
+		font-size: 16px;
 		padding: 1em 0;
 		max-width: 100%;
 	}
